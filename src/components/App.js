@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addRecipe, removeFromCalendar} from '../actions'
 import { CalendarIcon } from 'react-icons/lib/fa/calendar-plus-o'
+import { capitalize } from '../utils/helpers'
 
 class App extends Component {
 
